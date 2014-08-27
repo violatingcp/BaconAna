@@ -18,6 +18,7 @@ namespace baconhep
       bsx(0), bsy(0), bsz(0), 
       pfMET(0), pfMETphi(0), pfMETCov00(0), pfMETCov01(0), pfMETCov11(0),
       pfMETC(0), pfMETCphi(0), pfMETCCov00(0), pfMETCCov01(0), pfMETCCov11(0),
+      puppET(0), puppETphi(0), puppETCov00(0), puppETCov01(0), puppETCov11(0),
       mvaMET(0), mvaMETphi(0), mvaMETCov00(0), mvaMETCov01(0), mvaMETCov11(0),
       mvaMETU(0), mvaMETUphi(0), mvaMETUCov00(0), mvaMETUCov01(0), mvaMETUCov11(0),
       mvaMET0(0), mvaMET0phi(0), mvaMET0Cov00(0), mvaMET0Cov01(0), mvaMET0Cov11(0),
@@ -38,6 +39,8 @@ namespace baconhep
       float         pfMETCov00, pfMETCov01, pfMETCov11;
       float         pfMETC, pfMETCphi;                         // corrected particle flow MET
       float         pfMETCCov00, pfMETCCov01, pfMETCCov11;
+      float         puppET, puppETphi;                         // corrected particle flow MET
+      float         puppETCov00, puppETCov01, puppETCov11;
       float         mvaMET, mvaMETphi;                         // MVA MET
       float         mvaMETCov00, mvaMETCov01, mvaMETCov11;
       float         mvaMETU, mvaMETUphi;
